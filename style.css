@@ -1,1 +1,21 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+.extra2::before {
+    background: url("./img/monochrome.png") lightgray 50% / cover no-repeat;
+    width: 84px;
+    height: 119px;
+    transform: rotate(-2.526deg);
+    aspect-ratio: 12/17;
+}
+
+.extra6::before {
+    background: url("./img/background.jpg") lightgray 50% / cover no-repeat;
+    left: 14px;
+    top: -64px;
+    width: 1856px;
+    height: 1045px;
+    aspect-ratio: 119/67;
+}
+
+/* THIS IS FOR THE SMALLER SCREEN ETC */
+@media screen {
+    
+}
