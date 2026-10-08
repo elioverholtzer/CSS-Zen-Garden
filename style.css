@@ -1,21 +1,65 @@
-.extra2::before {
-    background: url("./img/monochrome.png") lightgray 50% / cover no-repeat;
+/* SETUP */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* GENERAL ELEMENTS */
+
+h1 {
+    position: fixed;
+    top: 32px;
+    left: calc(50% - 100px);
+    width: 400px;
+
+    font-family: "Inter", sans-serif;
+}
+
+h2, h3, h4, h5, p {
+    font-family: "EB Garamond", serif;
+}
+
+/* EXTRA THINGS */
+
+[class^="extra"] {
+    font-family: "EB Garamond", serif;
+    position: fixed;
+}
+
+.extra1::after {
+    content: "No. 1";
+    top: 32px;
+    left: calc(50% / 2);
+}
+
+.extra2::after {
+    position: fixed;
+    background-image: url("./img/monochrome.png");
+    content: "";
     width: 84px;
     height: 119px;
     transform: rotate(-2.526deg);
     aspect-ratio: 12/17;
 }
 
-.extra6::before {
-    background: url("./img/background.jpg") lightgray 50% / cover no-repeat;
-    left: 14px;
-    top: -64px;
-    width: 1856px;
-    height: 1045px;
-    aspect-ratio: 119/67;
+.extra3::after {
+    content: "Elija Avgustiña";
 }
 
-/* THIS IS FOR THE SMALLER SCREEN ETC */
-@media screen {
-    
+.extra4::after {
+    content: "1904";
+}
+
+.extra5::after {
+    content: "R1";
+}
+
+html::before {
+    background-image: url("./img/background.jpg");
+    width: 1856px;
+    height: 1045px;
+    position: fixed;
+    content: "";
+    opacity: 0.3;
+    z-index: -1;
+    left: 14px;
+    top: -64px;
 }
