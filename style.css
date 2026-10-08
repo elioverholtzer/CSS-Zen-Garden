@@ -52,14 +52,29 @@ h2, h3, h4, h5, p {
     content: "R1";
 }
 
-html::before {
+/* body::before {
     background-image: url("./img/background.jpg");
     width: 1856px;
     height: 1045px;
+    aspect-ratio: 119/67;
     position: fixed;
     content: "";
     opacity: 0.3;
     z-index: -1;
     left: 14px;
     top: -64px;
+} */
+
+body::before {
+    background-image: url("img/background.jpg");
+    content: " ";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center ;
+    opacity: 0.3;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
 }
