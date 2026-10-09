@@ -62,6 +62,23 @@ footer {
     left: 84.68px;
 }
 
+#zen-requirements {
+    position: fixed;
+    width: 302px;
+    height: 650px;
+    top: 171.83px;
+    left: 1053.27px;
+    transform: rotate(0.836deg);
+}
+
+p[role="contentinfo"] {
+    position: fixed;
+    width: 302px;
+    height: 650px;
+    top: 171.83px;
+    left: 84.68px;
+}
+
 /* EXTRA THINGS */
 
 [class^="extra"] {
