@@ -79,6 +79,39 @@ p[role="contentinfo"] {
     left: 84.68px;
 }
 
+#zen-explanation {
+    position: fixed;
+    width: 302px;
+    height: 327px;
+    top: 542.47px;
+    left: 400.48px;
+    transform: rotate(0.579deg);
+}
+
+#zen-summary {
+    position: fixed;
+    width: 302px;
+    height: 80px;
+    top: 168.49px;
+    left: 406.73px;
+    transform: rotate(0.579deg);
+}
+
+#zen-participation {
+    position: fixed;
+    width: 302px;
+    top: 170px;
+    left: 734px;
+    transform: rotate(0.579deg);
+}
+
+#zen-benefits {
+    position: fixed;
+    width: 302px;
+    top: 575px;
+    left: 734px;
+}
+
 /* EXTRA THINGS */
 
 [class^="extra"] {
