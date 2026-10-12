@@ -109,8 +109,30 @@ div.summary p {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    padding-top: 124px;
     height: calc(100vh - 124px);
     box-sizing: border-box;
+    border:10px solid goldenrod;
+}
+
+#zen-intro {
+    height: 382px;
+}
+
+#zen-explanation {
+    height: 327px;
+}
+
+#zen-participation {
+    height: 411px
+}
+
+#zen-benefits {
+    height: 171px;
+}
+
+#zen-requirements {
+    height: 650px;
 }
 
 /* EXTRA THINGS */
