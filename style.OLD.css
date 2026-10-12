@@ -1,0 +1,194 @@
+/* SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* GENERAL ELEMENTS */
+
+h1 {
+    position: fixed;
+    top: 32px;
+    left: calc(50% - 100px);
+    width: 400px;
+
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    position: fixed;
+    width: 400px;
+    height: 48px;
+    top: 96px;
+    left: 520px;
+
+    color: #000;
+    text-align: center;
+    font-family: "Inria Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2, h3, h4, h5, p {
+    font-family: "Inria Serif", serif;
+}
+
+h3, p {
+    text-align: center;
+}
+
+/* GENERAL CLASSES */
+#design-selection {
+    position: fixed;
+    top: 175.82px;
+    left: 84.68px;
+    width: 302px;
+    height: 208px;
+}
+
+#design-archives {
+    position: fixed;
+    top: 383.82px;
+    left: 84.92px;
+}
+
+#zen-resources {
+    position: fixed;
+    left: 84.68px;
+}
+
+footer {
+    position: fixed;
+    left: 84.68px;
+}
+
+#zen-requirements {
+    position: fixed;
+    width: 302px;
+    height: 650px;
+    top: 171.83px;
+    left: 1053.27px;
+    transform: rotate(0.836deg);
+}
+
+p[role="contentinfo"] {
+    position: fixed;
+    width: 302px;
+    height: 650px;
+    top: 171.83px;
+    left: 84.68px;
+}
+
+#zen-explanation {
+    position: fixed;
+    width: 302px;
+    height: 327px;
+    top: 542.47px;
+    left: 400.48px;
+    transform: rotate(0.579deg);
+}
+
+#zen-summary {
+    position: fixed;
+    width: 302px;
+    height: 80px;
+    top: 168.49px;
+    left: 406.73px;
+    transform: rotate(0.579deg);
+}
+
+#zen-participation {
+    position: fixed;
+    width: 302px;
+    top: 170px;
+    left: 734px;
+    transform: rotate(0.579deg);
+}
+
+#zen-benefits {
+    position: fixed;
+    width: 302px;
+    top: 575px;
+    left: 734px;
+}
+
+#zen-preamble {
+    position: fixed;
+    width: 302px;
+    top: 256.49px;
+    left: 406.23px;
+}
+
+/* EXTRA THINGS */
+
+[class^="extra"] {
+    font-family: "EB Garamond", serif;
+    position: fixed;
+}
+
+.extra1::after {
+    content: "No. 1";
+    top: 23px;
+    left: 80px;
+    width: 85px;
+}
+
+.extra2::after {
+    position: fixed;
+    background-image: url("./img/monochrome.png");
+    content: "";
+    width: 84px;
+    height: 119px;
+    top: 18.21px;
+    left: 294.42px;
+    transform: rotate(-2.526deg);
+    aspect-ratio: 12/17;
+}
+
+.extra3::after {
+    content: "Elija Avgustiña";
+    top: 106px;
+    left: 80px;
+    width: 193px;
+}
+
+.extra4::after {
+    content: "1904";
+    top: 23px;
+    left: 1275px;
+    width: 85px;
+}
+
+.extra5::after {
+    content: "R1";
+    top: 72px;
+    left: 1275px;
+    width: 85px;
+}
+
+/* body::before {
+    background-image: url("./img/background.jpg");
+    width: 1856px;
+    height: 1045px;
+    aspect-ratio: 119/67;
+    position: fixed;
+    content: "";
+    opacity: 0.3;
+    z-index: -1;
+    left: 14px;
+    top: -64px;
+} */
+
+body::before {
+    background-image: url("img/background.jpg");
+    content: " ";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 14px -64px;
+    opacity: 0.3;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
