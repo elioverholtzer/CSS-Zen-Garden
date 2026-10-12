@@ -46,7 +46,6 @@ h2, h3, h4, h5, p {
 
 /*-- THERE'S PROBABLY A BETTER WAY TO HAVE MANAGED THE FOLLOWING BUT ALAS */
 h3, p {
-    text-align: center;
     width: 296px;
 }
 
@@ -57,6 +56,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 
 li, p {
@@ -135,33 +135,39 @@ div.summary p {
 /* FLEXY BOX */
 .page-wrapper {
     display: flex;
-    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     padding-top: 124px;
-    height: calc(100vh - 124px);
-    box-sizing: border-box;
-    border:10px solid goldenrod;
+    padding-left: 5px;
+}
+
+.main {
+    display: flex;
 }
 
 #zen-intro {
     height: 382px;
+    width: 302px;
 }
 
 #zen-explanation {
     height: 327px;
+    width: 302px;
 }
 
 #zen-participation {
-    height: 411px
+    height: 411px;
+    width: 302px;
 }
 
 #zen-benefits {
     height: 171px;
+    width: 302px;
 }
 
 #zen-requirements {
     height: 650px;
+    width: 302px;
 }
 
 /* EXTRA THINGS */
@@ -170,6 +176,46 @@ div.summary p {
     font-family: "Inria Serif", serif;
     position: fixed;
 }
+
+/* WHATEVER EXISTS BELOW THIS POINT DOES NOTHING FOR SOME REASON (EXCEPT FOR THE BACKGROUND)*/
+/* .extra1::after {
+    content: "No. 1";
+    top: 23px;
+    left: 80px;
+    width: 85px;
+}
+
+.extra2::after {
+    position: fixed;
+    background-image: url("./img/monochrome.png");
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 84px 119px;
+    background-attachment: fixed;
+    background-position: 294.42px 18.21px;
+    transform: rotate(-2.526deg);
+}
+
+.extra3::after {
+    content: "Elija Avgustiña";
+    top: 106px;
+    left: 80px;
+    width: 193px;
+}
+
+.extra4::after {
+    content: "1904";
+    top: 23px;
+    left: 1275px;
+    width: 85px;
+}
+
+.extra5::after {
+    content: "R1";
+    top: 72px;
+    left: 1275px;
+    width: 85px;
+} */
 
 body::before {
     background-image: url("img/background.jpg");
